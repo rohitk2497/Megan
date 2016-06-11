@@ -1,8 +1,75 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("chicago.jpg");
+
+  background-size: 100%;
 }
 
 a {
   color: #00B7FF;
+}
+
+#headerstyle {
+  background-color: #0f0f0f;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  #border-radius: 15px;
+
+}
+
+#headerstyle a {
+  padding-right: 45px;
+  padding-left: 45px;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Verdana;
+}
+
+#headerstyle a:hover {
+  text-decoration: underline;
+  #background: white;
+  color: white;
+}
+
+#outerdiv {
+  align: center;
+  background-color: #CCD7DB;
+  margin-top: -10px;
+  font-size: 13px;
+  #border-bottom-left-radius: 15px;
+  #border-bottom-right-radius: 15px;
+}
+
+#innerdiv {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #2b669a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #0f0f0f;
+  color: white;
 }

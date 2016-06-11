@@ -31,13 +31,15 @@
   </head>
   <body>
   <% include templates/header.ejs %>
-<div>
+  <div id="outerdiv">
+      <div id="innerdiv">
+          <div>
 <p> </p>
  <p> </p>
 <p> </p>
 <p> </p>
 </div>
-
+          <strong>
     <p> A Colloborative Tool for the Government and Citizens!</p>
     <p>
 
@@ -55,5 +57,9 @@
 </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+      </div>
+      <% include templates/footer.ejs %>
+  </div>
   </body>
 </html>

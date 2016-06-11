@@ -5,11 +5,16 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+
   <% include templates/header.ejs %>
-    <h1><%= title %></h1>
+
+  <div id="outerdiv">
+      <div id="innerdiv">
+          <h1 style="text-align:center;"><%= title %></h1>
+          <strong>
     <p>Welcome!</p>
 
-    <hr>
+
     <div>
     You have reached the HiTech platform of Affordable Housing Program @ Princeton.
     </div>
@@ -29,7 +34,11 @@
     <li> Check your status of application </li>
     </ul>
     </div>
+      </div>
 
 
+  </div>
+
+  <% include templates/footer.ejs %>
   </body>
 </html>
